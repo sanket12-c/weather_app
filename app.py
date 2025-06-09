@@ -3,7 +3,7 @@ from flask import Flask, render_template_string, request, jsonify
 
 app = Flask(__name__)
 
-API_KEY = "bd5e378503939ddaee76f12ad7a97608"
+API_KEY = "Your API KEY is Here"
 API_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 # A simple dict of some states and major cities in India for demonstration
